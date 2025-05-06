@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yoga Testwebsite</title>
+  <title>Yoga mit Anna</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -12,8 +12,8 @@
     <img src="header.jpg" alt="Yoga Header" class="hero-img">
     <div class="hero-overlay">
       <div class="container">
-        <h1>Yoga Testwebsite</h1>
-        <p>Finde <span class="highlight">Bla</span>, <span class="highlight">Bla</span> und <span class="highlight">Bla</span>Yoga</p>
+        <h1>Yoga mit Anna</h1>
+        <p>Finde <span class="highlight">Ruhe</span>, <span class="highlight">Energie</span> und <span class="highlight">Balance</span> durch achtsames Yoga</p>
         <nav>
           <ul>
             <li><a href="#kurse">Kurse</a></li>
@@ -30,16 +30,16 @@
       <h2>Kursangebot</h2>
       <div class="card-grid">
         <div class="card">
-          <h3><span class="highlight">Kurs1</span></h3>
-          <p>Montags, 18:00 Uhr – Beschreibung</p>
+          <h3><span class="highlight">Hatha Yoga</span></h3>
+          <p>Montags, 18:00 Uhr – Sanftes Gleichgewicht von Körper und Geist</p>
         </div>
         <div class="card">
-          <h3><span class="highlight">Kurs2</span></h3>
-          <p>Mittwochs, 19:30 Uhr – Beschreibung</p>
+          <h3><span class="highlight">Vinyasa Flow</span></h3>
+          <p>Mittwochs, 19:30 Uhr – Dynamische Bewegung im Atemfluss</p>
         </div>
         <div class="card">
-          <h3><span class="highlight">Kurs3</span></h3>
-          <p>Sonntags, 10:00 Uhr – Beschreibung</p>
+          <h3><span class="highlight">Yin Yoga</span></h3>
+          <p>Sonntags, 10:00 Uhr – Tiefe Entspannung und Dehnung</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
   <section id="ueber" class="section alt">
     <div class="container">
       <h2>Über mich</h2>
-      <p>Ich bin <span class="highlight">Name</span>, hier crazy Text einfügen.</p>
+      <p>Ich bin <span class="highlight">Anna</span>, zertifizierte Yogalehrerin mit Leidenschaft für Bewegung und Entspannung. Seit über 10 Jahren begleite ich Menschen auf ihrer Reise zu mehr innerer Balance.</p>
     </div>
   </section>
 
@@ -57,12 +57,26 @@
       <h2>Kontakt</h2>
       <p>Du hast Fragen oder möchtest dich anmelden? Schreib mir gern:</p>
       <ul class="contact-list">
-        <li>Email: <a href="mailto:mrsjulie992@gmail.com">mrsjulie992@gmail.com</a></li>
+        <li>Email: <a href="mailto:mrsjulie992@gmail.com">test@gmail.com</a></li>
         <li>Telefon: 0123 / 4567890</li>
         <li>Instagram: <a href="#">@whatever</a></li>
       </ul>
+        <p>Oder nutze das Kontaktformular:</p>
+
+      <form action="https://formspree.io/f/movddbzv" method="POST" class="contact-form">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+      
+        <label for="message">Nachricht</label>
+        <textarea id="message" name="message" rows="5" placeholder="Schreib mir eine Nachricht..." required></textarea>
+      
+        <button type="submit">Nachricht senden</button>
+      </form>
+      
     </div>
   </section>
+
+
 
   <section id="impressum" class="section alt">
     <div class="container">
@@ -70,17 +84,17 @@
       <p><strong>Angaben gemäß § 5 TMG:</strong></p>
       <p>
         Anna Mustermann<br />
-        Unternehmensname<br />
+        Yoga<br />
         Musterstraße 12<br />
         12345 Musterstadt<br />
         Telefon: 0123 / 4567890<br />
-        E-Mail: email@email.de
+        E-Mail: anna@yogamitanna.de
       </p>
       <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br />
         Anna Mustermann, Musterstraße 12, 12345 Musterstadt
       </p>
       <p><strong>Berufshaftpflichtversicherung:</strong><br />
-        whatever
+        YogaVersicherung AG – Geltungsraum: Deutschland
       </p>
       <p><strong>Haftungsausschluss:</strong><br />
         Keine Haftung für externe Links. Für Inhalte verlinkter Seiten sind ausschließlich deren Betreiber verantwortlich.
@@ -88,13 +102,12 @@
       <p><strong>EU-Streitschlichtung:</strong><br />
         <a href="https://ec.europa.eu/consumers/odr" target="_blank">Online-Streitbeilegung</a>
       </p>
-      <p><strong>Bildnachweis:</strong> Headerbild wurde KI-generiert und ist lizenzfrei.</p>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Unternehmensname &nbsp;|&nbsp; <a href="#impressum" class="footer-link">Impressum</a></p>
+      <p>&copy; 2025 Yoga mit Anna &nbsp;|&nbsp; <a href="#impressum" class="footer-link">Impressum</a></p>
     </div>
   </footer>
 </body>
